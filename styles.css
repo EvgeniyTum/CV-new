@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  background: #f1f1f1;
+  font-style: normal;
+  line-height: 20px;
+  color: #0f141e;
+}
+
+.conteiner {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  color: #86898f;
+  margin: 0;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.card {
+  /* margin-bottom: 10px; */
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.hobby {
+  background-color: #fff8dc;
+}
+
+.work {
+  background-color: #e5ffe7;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: red;
+}
+
+.btn {
+  border-radius: 5px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  color: #333;
+  background-color: #e5ffe7;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 5px 10px;
+  border: none;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.list {
+  margin-top: 20px;
+  padding: 0 30px;
+}
+
+.list li {
+  margin-bottom: 1px;
+  color: #86898f;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+  color: #86898f;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.name-email {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.name-email .form-row {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.name-email .form-row:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 650px) {
+  .name-email {
+    display: block;
+  }
+
+  .name-email .form-row {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.form-row label {
+  display: block;
+}
+
+.form-row input,
+.form-row textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: inherit;
+}
